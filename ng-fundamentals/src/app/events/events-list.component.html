@@ -3,7 +3,7 @@
   <hr/>
   <div class="row">
     <div *ngFor="let event of events" class="col-md-5">
-        <div class="well hoverwell thumbnail">
+        <div class="well hoverwell thumbnail" (click)="handleThumbnailClick(event.name)">
             <h2>{{ event?.name }}</h2>
             <div>Date: {{ event?.date }}</div>
             <div>Time: {{ event?.time }}</div>

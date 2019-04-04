@@ -10,6 +10,7 @@ import {
   CreateEventComponent,
   CreateSessionComponent,
   SessionListComponent,
+  DurationPipe,
  } from './events/index';
 
 import { EventsAppComponent } from './events-app.component';
@@ -32,7 +33,8 @@ import { CollapsibleWellComponent } from './common/collapsible-well.component';
     CreateSessionComponent,
     CollapsibleWellComponent,
     SessionListComponent,
-    Error404Component
+    Error404Component,
+    DurationPipe
   ],
   imports: [
     BrowserModule,
